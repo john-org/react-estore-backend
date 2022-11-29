@@ -57,23 +57,26 @@ exports.upload = function (req, res) {
 exports.import = function (req, res) {
   Product.create(
     {
-      title: "Guitar",
-      description: "Fender instrument",
+      title: "AMERICAN VINTAGE II 1951 TELECASTER",
+      description:
+        "The Fender® American Vintage II series presents a remarkably accurate take on the revolutionary designs that altered the course of musical history. Built with period-accurate bodies, necks and hardware, premium finishes and meticulously voiced, year-specific pickups, each instrument captures the essence of authentic Fender craftsmanship and tone.",
       image: "guitar.jpg",
-      price: "1000",
+      price: "2,249.99",
     },
     {
-      title: "Playstation",
-      description: "Sony console",
+      title: "Sony PlayStation Console",
+      description:
+        "Step up your gaming experience with the PlayStation 5. Enjoy lightning-fast loading with an ultra-high speed SSD, deep immersion with haptic feedback, adaptive triggers, and 3D audio. With Game Boost revisit your favorite content enhanced. Appreciate faster and smoother game rates. Play has no limits with the all-new generation of incredible PlayStation games.",
       image: "playstation.jpg",
-      price: "200",
+      price: "499.99",
     },
 
     {
-      title: "Xbox",
-      description: "Microsoft console",
+      title: "Microsoft Xbox Series S - Game console - QHD - HDR - 512 GB SSD",
+      description:
+        "With more dynamic worlds and faster load times, the all-digital Xbox Series S is the perfect value in gaming.",
       image: "xbox.jpg",
-      price: "700",
+      price: "309.99",
     },
     function (err) {
       if (err) return console.log(err);
