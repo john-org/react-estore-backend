@@ -85,7 +85,7 @@ exports.import = function (req, res) {
   );
 };
 
-exports.killall = function (req, res) {
+exports.deleteall = function (req, res) {
   Product.deleteMany({}, (err) => {
     if (err) return console.log(err);
     return res.sendStatus(202);

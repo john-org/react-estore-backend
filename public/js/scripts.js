@@ -58,6 +58,10 @@ function handleClicks(event) {
     deleteProduct(event);
   } else if (event.target.matches("#seed")) {
     seed();
+  } else if (event.target.matches("#productsdump")) {
+    window.location = "api/products";
+  } else if (event.target.matches("#deleteallproducts")) {
+    window.location = "api/deleteall";
   }
 }
 

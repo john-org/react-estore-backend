@@ -52,3 +52,17 @@ button {
   color: #007eb6;
   cursor: pointer;
 }
+
+.apilist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  gap: 1rem;
+}
+
+.productform {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}

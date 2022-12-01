@@ -38,7 +38,7 @@ app.post("/api/products", productControllers.add);
 app.put("/api/products/:id", productControllers.update);
 app.delete("/api/products/:id", productControllers.delete);
 app.get("/api/import", productControllers.import);
-app.get("/api/killall", productControllers.killall);
+app.get("/api/deleteall", productControllers.deleteall);
 app.post("/api/upload", productControllers.upload);
 
 const PORT = process.env.PORT || 3456;
